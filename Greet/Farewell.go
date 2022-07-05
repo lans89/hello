@@ -1,9 +1,9 @@
 package hello
 
-func Spanish(name string) string {
+func inSpanish(name string) string {
 	return icon + " Adios " + name
 }
 
-func English(name string) string {
+func inEnglish(name string) string {
 	return icon + " Good bye " + name
 }
