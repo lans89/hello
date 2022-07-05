@@ -3,9 +3,11 @@ package main
 import (
 	"fmt"
 
-	Greet "github.com/lans89/hello/Greet"
+	greet "github.com/lans89/hello/Greet"
 )
 
 func main() {
-	fmt.Println(Greet.Esperanto("Ivan"))
+	fmt.Println(greet.Esperanto("Ivan"))
+	fmt.Println(greet.Spanish("Ivan"))
+	fmt.Println(greet.English("Ivan"))
 }

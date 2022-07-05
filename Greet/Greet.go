@@ -1,15 +1,15 @@
-package hello
+package Greet
 
-var Icon string = "👜"
+var icon string = "👜"
 
 func Esperanto(name string) string {
-	return "Saluton " + name + " " + Icon
+	return "Saluton " + name + " " + icon
 }
 
 func English(name string) string {
-	return "Hello " + name + " " + Icon
+	return "Hello " + name + " " + icon
 }
 
 func Spanish(name string) string {
-	return "Hola " + name + " " + Icon
+	return "Hola " + name + " " + icon
 }
