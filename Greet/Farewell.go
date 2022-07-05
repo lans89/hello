@@ -1,9 +1,9 @@
 package Greet
 
-func inSpanish(name string) string {
+func InSpanish(name string) string {
 	return icon + "Adios " + name
 }
 
-func inEnglish(name string) string {
+func InEnglish(name string) string {
 	return icon + "Good bye " + name
 }

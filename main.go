@@ -11,5 +11,5 @@ func main() {
 	fmt.Println(Greet.Spanish("Ivan"))
 	fmt.Println(Greet.English("Ivan"))
 
-	fmt.Println("")
+	fmt.Println(Greet.inSpanish("Ivan"))
 }
